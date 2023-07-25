@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping e tags</title>
+    <style>
+        body{
+            background-color: rgb(119, 119, 119);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(119, 119, 119);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px black;
+          
+            
+        }
+        nav >a{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-right: 30px;
+            
+            
+        }
+        nav >a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+        }
+        footer{
+            background-color: rgb(0, 0, 0);   
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            color: white;
+        }
+          article{
+            padding: 5px;
+            background-color: rgb(182, 181, 180);
+        }
+        footer > p {
+            margin: 0px;
+        }
+        article > aside {
+            background-color: rgb(134, 134, 134);
+        }
+        div#bola{
+            background-color: rgb(248, 214, 214);
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+        <main>
+            <section>
+                <p>Notícias</p>
+                <article>  
+                    <h2>notícias sobre o brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing     elit. Eos enim ratione maiores pariatur
+                        voluptas, harum laborum? Similique, libero. Ipsam eligendi voluptatem inventore est sapiente
+                        officiis saepe, ab nulla libero voluptates.</p>
+                    <aside>
+                        <p>artigo escrito por marcelo</p>
+                    </aside>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>criado por marcelo</p>
+        </footer>
+        <div id="bola"></div>
+</body>
+</html>

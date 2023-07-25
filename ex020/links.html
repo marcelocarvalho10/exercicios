@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(233, 150, 150);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(189, 5, 14);
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: chartreuse;
+        }
+        a::before{
+            content: "--> ";
+            color: rgb(0, 112, 112);
+        }
+        a::after{
+            content:' [link]';
+            color: rgb(117, 102, 255);
+        }
+        .especial{
+            background-color: rgb(247, 188, 146)
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1> 
+    <ul>
+        <li><a href="https://github.com/bgmarcelo" target="_blank">github</a></li>
+        <li><a href="https://www.youtube.com/channel/UCd9biSPeqthv5HUH3jy-qBA" target="_blank" class="especial">youtube</a></li>
+        <li><a href="https://www.linkedin.com/in/marcelo-carvalho-5b4b3a1a3/" target="_blank" class="especial">linkedin</a></li>
+    </ul>  
+</body>
+</html>

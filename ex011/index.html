@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios despositivos diferentes ou simplismente diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1> reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em HTML5.</p>
+   <audio preload="metadata" autoplay controls loop>
+        <source src="midia/luckyshot.mp3.mp3" type="audio/mpeg">
+        <source src="midia/luckyshot.mp3.ogg" type="audio/ogg">
+        <source src="midia/luckyshot.mp3.wav" type="audio/wav">
+        <p>infelizmente o seu navegador não tem suporte para reproduzir o audio <a href="midia/luckyshot.mp3.mp3"></a> clique aqui para baixar o arquivo</a></p>
+   </audio>
+</body>
+</html>        
