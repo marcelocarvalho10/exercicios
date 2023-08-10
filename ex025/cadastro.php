@@ -1,7 +1,4 @@
-
-
-
-        dados nao cadastrado
-        aprenda php
+dados nao cadastrado 
+aprenda php
     
 
