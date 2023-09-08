@@ -8,13 +8,13 @@ Desktops – 992px — 1200px
 telas grandes – acima de 1200px
 */
 
-@media print { /* IMPRESSÃO*/
+@media print { /* IMPRESSÃO */
 *{
     font-family: 'Courier New', Courier, monospace;
 }
 
 body{
-    background-image: url(../imagens/back-print.jpg);/*Desnecessário */
+    background-image: url(../imagens/back-print.jpg);/* Desnecessário */
 
 }
 
