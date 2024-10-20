@@ -7,27 +7,24 @@
     <style>
         div.container{
             background-color:lightsalmon;
-
             display:flex;
-            flex-flow:row nowrap;
+            flex-flow: row nowrap;
         }
         div.item{
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            flex-basis:150px;
+            flex-basis: 250px;
+           flex-shrink: 1;
+           flex-grow: 1;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="item">A</div>
-        <div class="item">outro conteudo</div>
+        <div class="item">B</div>
         <div class="item">C</div>
-        <div class="item">outro conteudo maior</div>
-        <div class="item">E</div>
-        <div class="item">conteudo maior para tentar adaptar o espaço</div>
-        <div class="item">G</div>
     </div>
 </body>
 </html>
